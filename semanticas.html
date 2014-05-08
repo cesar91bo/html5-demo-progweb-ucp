@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>nuevos elementos de HTML5</title>
+<body>
+
+<h2>Los nuevos elementos de HTML5</h2>
+
+<datalist id="a&ntilde;o">
+<option value="primer a&ntilde;o">
+<option value="segundo a&ntilde;o">
+<option value="tercer a&ntilde;o">
+<option value="cuarto a&ntilde;o">
+<option value="quinto a&ntilde;o">
+</datalist>
+
+<datalist id="materias">
+<option value="Lengua">
+<option value="Matem&aacute;ticas">
+<option value="Historia">
+<option value="F&iacute;sica">
+<option value="Ingl&eacute;s">
+<option value="Tecnolog&iacute;a">
+<option value="Geograf&iacute;a">
+<option value="Biolog&iacute;a">
+<option value="Ciencias sociales">
+<option value="M&uacute;sica">
+</datalist>
+
+<h3>Elija el a&ntilde;o y la materia que desea consultar: </h3>
+
+<input type="text" placeholder="a&ntilde;o:" list="a&ntilde;o">
+<input type="text" placeholder="materias:" list="materias">
+
+<h3>cantidad de materias aprobadas: 4 de 10</h3>
+
+<p>porcentaje de materias aprobadas 40% <progress id="p" value="4" max="10">40%
+
+</progress></p>
+
+<meter min="0" max="10" value="4">
+<span>1/3</span>
+</meter>
+
+ <details>
+ 
+<summary>Haga clic para consultar materias aprobadas</summary>
+<p>Matem&aacute;ticas</p>
+<p>F&iacute;sica</p>
+<p>Ingl&eacute;s</p>
+<p>Lengua</p>
+
+</details>
+
+
+
+</body>
+</html>
